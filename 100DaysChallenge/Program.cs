@@ -33,8 +33,9 @@ class Program
     }
     public static void solve(double meal_cost, int tip_percent, int tax_percent)
     {
-        double new_tip_percent = ((double)tip_percent / (double)100) * (double)meal_cost;
-        double new_tax_percent = ((double)tax_percent / (double)100) * (double)meal_cost;
+        //Usando cast (double) para fazer corretamente a divisão de forma que retorne um double
+        double new_tip_percent = ((double)tip_percent / (double)100) * meal_cost;
+        double new_tax_percent = ((double)tax_percent / (double)100) * meal_cost;
         double result = Math.Round(meal_cost + new_tip_percent + new_tax_percent);
         Console.WriteLine(result);
     }
