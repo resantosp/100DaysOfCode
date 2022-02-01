@@ -31,9 +31,22 @@ class Program
         // The 's' variable above should be printed first.
         Console.WriteLine(s + text);
     }
+    public static void solve(double meal_cost, int tip_percent, int tax_percent)
+    {
+        double new_tip_percent = ((double)tip_percent / (double)100) * (double)meal_cost;
+        double new_tax_percent = ((double)tax_percent / (double)100) * (double)meal_cost;
+        double result = Math.Round(meal_cost + new_tip_percent + new_tax_percent);
+        Console.WriteLine(result);
+    }
     static void Main()
     {
-        
+        double meal_cost = 12.00;
+
+        int tip_percent = 20;
+
+        int tax_percent = 8;
+
+        solve(meal_cost, tip_percent, tax_percent);
 
     }
 }
