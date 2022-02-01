@@ -38,7 +38,7 @@ class Program
         double result = Math.Round(meal_cost + new_tip_percent + new_tax_percent);
         Console.WriteLine(result);
     }
-    static void Main()
+    static void DayTwo()
     {
         double meal_cost = 12.00;
 
@@ -47,6 +47,10 @@ class Program
         int tax_percent = 8;
 
         solve(meal_cost, tip_percent, tax_percent);
+    }
+    static void Main()
+    {
+        
 
     }
 }
