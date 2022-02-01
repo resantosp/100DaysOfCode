@@ -1,0 +1,15 @@
+C:\Users\55219\OneDrive\Documentos\GitHub\100DaysOfCode\100DaysChallenge\obj\Debug\net6.0\100DaysChallenge.csproj.AssemblyReference.cache
+C:\Users\55219\OneDrive\Documentos\GitHub\100DaysOfCode\100DaysChallenge\obj\Debug\net6.0\100DaysChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55219\OneDrive\Documentos\GitHub\100DaysOfCode\100DaysChallenge\obj\Debug\net6.0\100DaysChallenge.AssemblyInfoInputs.cache
+C:\Users\55219\OneDrive\Documentos\GitHub\100DaysOfCode\100DaysChallenge\obj\Debug\net6.0\100DaysChallenge.AssemblyInfo.cs
+C:\Users\55219\OneDrive\Documentos\GitHub\100DaysOfCode\100DaysChallenge\obj\Debug\net6.0\100DaysChallenge.csproj.CoreCompileInputs.cache
+C:\Users\55219\OneDrive\Documentos\GitHub\100DaysOfCode\100DaysChallenge\bin\Debug\net6.0\100DaysChallenge.exe
+C:\Users\55219\OneDrive\Documentos\GitHub\100DaysOfCode\100DaysChallenge\bin\Debug\net6.0\100DaysChallenge.deps.json
+C:\Users\55219\OneDrive\Documentos\GitHub\100DaysOfCode\100DaysChallenge\bin\Debug\net6.0\100DaysChallenge.runtimeconfig.json
+C:\Users\55219\OneDrive\Documentos\GitHub\100DaysOfCode\100DaysChallenge\bin\Debug\net6.0\100DaysChallenge.dll
+C:\Users\55219\OneDrive\Documentos\GitHub\100DaysOfCode\100DaysChallenge\bin\Debug\net6.0\ref\100DaysChallenge.dll
+C:\Users\55219\OneDrive\Documentos\GitHub\100DaysOfCode\100DaysChallenge\bin\Debug\net6.0\100DaysChallenge.pdb
+C:\Users\55219\OneDrive\Documentos\GitHub\100DaysOfCode\100DaysChallenge\obj\Debug\net6.0\100DaysChallenge.dll
+C:\Users\55219\OneDrive\Documentos\GitHub\100DaysOfCode\100DaysChallenge\obj\Debug\net6.0\ref\100DaysChallenge.dll
+C:\Users\55219\OneDrive\Documentos\GitHub\100DaysOfCode\100DaysChallenge\obj\Debug\net6.0\100DaysChallenge.pdb
+C:\Users\55219\OneDrive\Documentos\GitHub\100DaysOfCode\100DaysChallenge\obj\Debug\net6.0\100DaysChallenge.genruntimeconfig.cache
