@@ -98,8 +98,41 @@ class Program
             System.Console.WriteLine($"{n} x {i} = {resultado}");
         }
     }
+    static void DaySix()
+    {
+        int t = Convert.ToInt32(Console.ReadLine().Trim());
+        
+        while (t > 0)
+        {
+            string s = Console.ReadLine();
+
+            int n = s.Length;
+
+            for (int i = 0; i <= n - 1; i++)
+            {
+                if (i == 0 || i % 2 == 0)
+                {
+                    Console.Write($"{s[i]}");
+                }
+            }
+
+            Console.Write(" ");
+
+            for (int i = 0; i <= n - 1; i++)
+            {
+                if (i != 0 && i % 2 != 0)
+                {
+                    Console.Write($"{s[i]}");
+                }
+            }
+            
+            Console.WriteLine();
+            t -= 1;
+            
+        }
+    }
     static void Main()
     {
-        
+            
     }
 }
