@@ -1,4 +1,5 @@
 ﻿using System;
+using DaysChallenge;
 class Program
 {
     static void DayZero()
@@ -49,9 +50,46 @@ class Program
 
         solve(meal_cost, tip_percent, tax_percent);
     }
+
+    static void DayThree()
+    {
+        int n = Convert.ToInt32(Console.ReadLine().Trim());
+
+        if (n % 2 != 0)
+        {
+            System.Console.WriteLine("Weird");
+        }
+        else if (n % 2 == 0 && n >= 2 && n <= 5)
+        {
+            System.Console.WriteLine("Not Weird");
+        }
+        else if (n % 2 == 0 && n >= 6 && n <= 20)
+        {
+            System.Console.WriteLine("Weird");
+        }
+        else
+        {
+            System.Console.WriteLine("Not weird");
+        }
+    }
+    static void DayFour()
+    {
+        int T = int.Parse(Console.In.ReadLine());
+        for (int i = 0; i < T; i++) 
+        {
+            int age = int.Parse(Console.In.ReadLine());
+            Person p = new Person(age);
+             p.amIOld();
+                for (int j = 0; j < 3; j++) 
+                {
+                  p.yearPasses();
+                }
+                p.amIOld();
+                Console.WriteLine();
+        }
+    }
     static void Main()
     {
         
-
     }
 }
