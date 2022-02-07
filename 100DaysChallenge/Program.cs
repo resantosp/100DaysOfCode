@@ -88,6 +88,16 @@ class Program
                 Console.WriteLine();
         }
     }
+    static void DayFive()
+    {
+        int n = Convert.ToInt32(Console.ReadLine().Trim());
+
+        for (int i = 1; i <= 10; i++)
+        {
+            int resultado = n * i;
+            System.Console.WriteLine($"{n} x {i} = {resultado}");
+        }
+    }
     static void Main()
     {
         
