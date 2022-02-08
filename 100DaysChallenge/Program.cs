@@ -130,9 +130,23 @@ class Program
             t -= 1;
             
         }
+        static void DaySeven()
+        {
+            int n = Convert.ToInt32(Console.ReadLine().Trim());
+
+            List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+
+            arr.Reverse();
+
+            foreach (var numero in arr)
+            {
+                Console.Write($"{numero} ");
+            }
+        }
     }
     static void Main()
     {
-            
+        
+
     }
 }
