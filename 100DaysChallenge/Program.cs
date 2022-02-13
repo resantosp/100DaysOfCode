@@ -143,6 +143,37 @@ class Program
                 Console.Write($"{numero} ");
             }
         }
+        static void DayEight()
+        {
+            //Phone Book Dictionary
+            int entries = Convert.ToInt32(Console.ReadLine());
+            Dictionary<string, string> phoneNumber = new Dictionary<string, string>(entries);
+
+            while (entries > 0)
+            {
+                string s = Console.ReadLine();
+                string[] subs = s.Split(' ');
+                phoneNumber.Add(subs[0], subs[1]);
+                entries -= 1;
+            }
+
+            string names = "first";
+
+            while (!string.IsNullOrEmpty(names))
+            {
+                names = Console.ReadLine();
+
+
+                if (phoneNumber.ContainsKey(names))
+                {
+                    System.Console.WriteLine($"{names}={phoneNumber[names]}");
+                }
+                else
+                {
+                    System.Console.WriteLine("Not Found");
+                }
+            }
+        }
     }
     static void Main()
     {
