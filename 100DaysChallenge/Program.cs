@@ -40,6 +40,16 @@ class Program
         double result = Math.Round(meal_cost + new_tip_percent + new_tax_percent);
         Console.WriteLine(result);
     }
+    public static int factorial(int n)
+    {
+        //Base case
+        if (n == 0)
+        {
+            return 1;
+        }
+        //Recursive case
+        return n * factorial(n - 1);
+    }
     static void DayTwo()
     {
         double meal_cost = 12.00;
@@ -174,9 +184,19 @@ class Program
                 }
             }
         }
+        static void DayNine()
+        {
+            //Factorial
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            int fact = factorial(n);
+
+            System.Console.WriteLine(fact);
+        }
     }
     static void Main()
     {
+        
         
 
     }
