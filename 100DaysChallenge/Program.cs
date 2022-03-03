@@ -55,9 +55,20 @@ class Program
         string binary = Convert.ToString(n, 2);
         return binary;
     }
-    public static NumberOne(string binary)
+    public static int NumberOne(string binary)
     {
-        
+        var array = binary.Split("");
+        int count = 0;
+        for (int i = 0; i < array.Length; i++)
+        {
+            if (array[i] == "1")
+            {
+                count += 1;
+            }
+        }
+
+        return count;
+
     }
     static void DayTwo()
     {
@@ -206,8 +217,13 @@ class Program
     
     static void Main()
     {
+        Console.Write("Defina um número para conversão: ");
+        int n = Convert.ToInt32(Console.ReadLine());
         
-        
+        string binary = BinaryMethod(n);
+        int numberOne = NumberOne(binary);
+
+        System.Console.WriteLine($"{binary}");
 
     }
 }
