@@ -50,6 +50,15 @@ class Program
         //Recursive case
         return n * factorial(n - 1);
     }
+    public static string BinaryMethod(int n)
+    {
+        string binary = Convert.ToString(n, 2);
+        return binary;
+    }
+    public static NumberOne(string binary)
+    {
+        
+    }
     static void DayTwo()
     {
         double meal_cost = 12.00;
@@ -140,8 +149,9 @@ class Program
             t -= 1;
             
         }
-        static void DaySeven()
-        {
+    }
+    static void DaySeven()
+    {
             int n = Convert.ToInt32(Console.ReadLine().Trim());
 
             List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
@@ -152,9 +162,9 @@ class Program
             {
                 Console.Write($"{numero} ");
             }
-        }
-        static void DayEight()
-        {
+    }
+    static void DayEight()
+    {
             //Phone Book Dictionary
             int entries = Convert.ToInt32(Console.ReadLine());
             Dictionary<string, string> phoneNumber = new Dictionary<string, string>(entries);
@@ -183,17 +193,17 @@ class Program
                     System.Console.WriteLine("Not Found");
                 }
             }
-        }
-        static void DayNine()
-        {
+    }   
+    static void DayNine()
+    {
             //Factorial
             int n = Convert.ToInt32(Console.ReadLine());
 
             int fact = factorial(n);
 
             System.Console.WriteLine(fact);
-        }
     }
+    
     static void Main()
     {
         
