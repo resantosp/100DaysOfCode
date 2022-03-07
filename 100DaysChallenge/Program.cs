@@ -50,11 +50,6 @@ class Program
         //Recursive case
         return n * factorial(n - 1);
     }
-    public static string BinaryMethod(int n)
-    {
-        string binary = Convert.ToString(n, 2);
-        return binary;
-    }
     public static int NumberOne(string binary)
     {
         var array = binary.Split("");
@@ -68,7 +63,6 @@ class Program
         }
 
         return count;
-
     }
     static void DayTwo()
     {
@@ -220,10 +214,29 @@ class Program
         Console.Write("Defina um número para conversão: ");
         int n = Convert.ToInt32(Console.ReadLine());
         
-        string binary = BinaryMethod(n);
-        int numberOne = NumberOne(binary);
+        int sum = 0;
+        int max = 0;
 
-        System.Console.WriteLine($"{binary}");
+        while (n > 0)
+        {
+            if (n % 2 == 1)
+            {
+                sum++;
+
+                if (sum > max)
+                {
+                    max = sum;
+                }
+            }
+            else
+            {
+                sum = 0;
+            }
+
+            n = n / 2;
+        }
+
+        System.Console.WriteLine($"{max}");
 
     }
 }
