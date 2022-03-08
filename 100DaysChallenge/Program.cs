@@ -208,10 +208,8 @@ class Program
 
             System.Console.WriteLine(fact);
     }
-    
-    static void Main()
+    static void DayTen()
     {
-        Console.Write("Defina um número para conversão: ");
         int n = Convert.ToInt32(Console.ReadLine());
         
         int sum = 0;
@@ -237,6 +235,11 @@ class Program
         }
 
         System.Console.WriteLine($"{max}");
+    }
+    
+    static void Main()
+    {
+        
 
     }
 }
